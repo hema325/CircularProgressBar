@@ -1,0 +1,48 @@
+:root {
+    --clr: #7d29df;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--clr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 25px 50px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    width: 220px;
+    height: 220px;
+    background-image: conic-gradient(var(--clr) 0deg, #eeedef 0deg);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+
+.progress-bar .percentage {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--clr);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
